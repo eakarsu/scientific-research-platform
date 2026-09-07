@@ -1,0 +1,113 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "feature-noise-analysis",
+      "feature-entanglement-analysis",
+      "hardware-recommendation",
+      "benchmark-analysis",
+      "hardwarerecommendation-ibm-ionq-rigetti-r",
+      "benchmarkanalysis-across-providers",
+      "variational-circuit-optimizer"
+    ],
+    "ai": true,
+    "representativeId": "feature-noise-analysis",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "feature-noise-analysis",
+        "title": "Noise Analysis",
+        "originalPath": "/features/feature-noise-analysis"
+      },
+      {
+        "id": "feature-entanglement-analysis",
+        "title": "Entanglement Analysis",
+        "originalPath": "/features/feature-entanglement-analysis"
+      },
+      {
+        "id": "hardware-recommendation",
+        "title": "HW Recommendation",
+        "originalPath": "/features/hardware-recommendation"
+      },
+      {
+        "id": "benchmark-analysis",
+        "title": "Benchmark Analysis",
+        "originalPath": "/features/benchmark-analysis"
+      },
+      {
+        "id": "hardwarerecommendation-ibm-ionq-rigetti-r",
+        "title": "HW Recommendation Gap",
+        "originalPath": "/features/hardwarerecommendation-ibm-ionq-rigetti-r"
+      },
+      {
+        "id": "benchmarkanalysis-across-providers",
+        "title": "Benchmark Analysis Gap",
+        "originalPath": "/features/benchmarkanalysis-across-providers"
+      },
+      {
+        "id": "variational-circuit-optimizer",
+        "title": "variational circuit optimizer",
+        "originalPath": "/features/variational-circuit-optimizer"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "circuit-generator",
+      "circuitgenerator-from-problem-description"
+    ],
+    "ai": true,
+    "representativeId": "circuit-generator",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "circuit-generator",
+        "title": "Circuit Generator",
+        "originalPath": "/features/circuit-generator"
+      },
+      {
+        "id": "circuitgenerator-from-problem-description",
+        "title": "Circuit Generator Gap",
+        "originalPath": "/features/circuitgenerator-from-problem-description"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "scientific-research-platform",
+  "title": "Scientific research & experiment knowledge",
+  "buyer": "Researchers and experiment teams",
+  "sourceCount": 3,
+  "sources": [
+    "ai-native-discovery-engines",
+    "AIQuantumComputingAssistant",
+    "AIResearchLiteratureAgent"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46063,
+  "productName": "Scientific research Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-native-discovery-engines",
+    "/Volumes/external/projects/AIQuantumComputingAssistant",
+    "/Volumes/external/projects/AIResearchLiteratureAgent"
+  ]
+}

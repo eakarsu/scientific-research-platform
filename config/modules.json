@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ai-native-discovery-engines",
+    "name": "Native discovery engines",
+    "sourceProject": "ai-native-discovery-engines",
+    "services": []
+  },
+  {
+    "id": "AIQuantumComputingAssistant",
+    "name": "Quantum computing assistant",
+    "sourceProject": "AIQuantumComputingAssistant",
+    "services": []
+  },
+  {
+    "id": "AIResearchLiteratureAgent",
+    "name": "Research literature agent",
+    "sourceProject": "AIResearchLiteratureAgent",
+    "services": []
+  }
+]

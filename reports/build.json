@@ -1,0 +1,9 @@
+{
+  "app": "scientific-research-platform",
+  "features": 75,
+  "sourceApps": 3,
+  "calculatorEngines": 0,
+  "registryHash": "c5500cd99e079941da54999e328b9554ef008e1b4739bff60599b1a3280954fd",
+  "builtAt": "2026-09-07T22:06:17.464Z",
+  "status": "built"
+}

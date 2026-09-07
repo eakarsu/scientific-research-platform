@@ -1,0 +1,11 @@
+{
+  "id": "scientific-research-platform",
+  "status": "passed",
+  "pagesVisited": 75,
+  "minimumRows": 15,
+  "browserCRUD": true,
+  "persistence": true,
+  "mobile": true,
+  "pageErrors": [],
+  "verifiedAt": "2026-09-07T14:40:59.860Z"
+}

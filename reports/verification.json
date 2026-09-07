@@ -1,0 +1,18 @@
+{
+  "id": "scientific-research-platform",
+  "status": "passed",
+  "features": 75,
+  "editableTables": 73,
+  "minimumRows": 15,
+  "repeatSeedCreated": 0,
+  "crud": true,
+  "persistence": true,
+  "relationships": true,
+  "revisions": true,
+  "attachments": true,
+  "exports": true,
+  "mockedAI": true,
+  "originProtection": true,
+  "sourceCalculationsExecuted": 0,
+  "verifiedAt": "2026-09-07T22:06:17.622Z"
+}

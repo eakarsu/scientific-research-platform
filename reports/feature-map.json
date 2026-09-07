@@ -1,0 +1,780 @@
+{
+  "mapped": [
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "/projects",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "canonical": "matters",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "/hypotheses",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "canonical": "hypotheses",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "/experiments",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "canonical": "experiments",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "/results",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "canonical": "results",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "/researchers",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "canonical": "researchers",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "/publications",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "canonical": "publications",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "activity",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "exports",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "exports",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "corpus-index",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "corpus-index",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "hybrid-retrieval",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "hybrid-retrieval",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "citation-tracker",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "citation-tracker",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "web-crawl",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "web-crawl",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "benchmark-eval",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "benchmark-eval",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "discovery-agent",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "discovery-agent",
+      "kind": "route"
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "sourceKey": "query-drift-monitor",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "canonical": "query-drift-monitor",
+      "kind": "route"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/circuit-design",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-circuit-design",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/error-correction",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-error-correction",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/algorithm-optimization",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-algorithm-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/gate-operations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-gate-operations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/qubit-management",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-qubit-management",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/quantum-simulation",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-quantum-simulation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/noise-analysis",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-noise-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/state-visualization",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-state-visualization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/entanglement-analysis",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-entanglement-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/quantum-ml",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-quantum-ml",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/research-papers",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-research-papers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/quantum-protocols",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-quantum-protocols",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/hardware-profiles",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-hardware-profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/benchmark-tests",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-benchmark-tests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/feature/learning-resources",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "feature-learning-resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/quantum-query",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "quantum-query",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/hardware-transpiler",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "hardware-transpiler",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/benchmark-runner",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "benchmark-runner",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/algorithm-explainer",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "algorithm-explainer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/optimization-problem-mapper",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "optimization-problem-mapper",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/hardware-recommendation",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "hardware-recommendation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/circuit-generator",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "circuit-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/benchmark-analysis",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "benchmark-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/error-mitigation-advisor",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "error-mitigation-advisor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-algorithmexplainer-plainenglish-explanati",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "algorithmexplainer-plainenglish-explanati",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-circuitgenerator-from-problem-description",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "circuitgenerator-from-problem-description",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-optimizationproblemmapper-classical-quant",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "optimizationproblemmapper-classical-quant",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-hardwarerecommendation-ibm-ionq-rigetti-r",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "hardwarerecommendation-ibm-ionq-rigetti-r",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-benchmarkanalysis-across-providers",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "benchmarkanalysis-across-providers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-errormitigation-advisor",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "errormitigation-advisor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-circuit-diagram-visualizationeditor",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "circuit-diagram-visualizationeditor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-quantum-simulator-integration-qiskitcirqb",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "quantum-simulator-integration-qiskitcirqb",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-educational-courselesson-structure",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "educational-courselesson-structure",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-benchmarking-framework-or-result-store",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "benchmarking-framework-or-result-store",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-hardware-provider-accountcredential-mgmt",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "hardware-provider-accountcredential-mgmt",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-saved-circuits-sharing-or-library",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "saved-circuits-sharing-or-library",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "/gap-no-notifications-or-rbac",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "canonical": "notifications-or-rbac",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "circuit-design",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-circuit-design",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "error-correction",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-error-correction",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "algorithm-optimization",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-algorithm-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "qubit-management",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-qubit-management",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "gate-operations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-gate-operations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "quantum-simulation",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-quantum-simulation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "noise-analysis",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-noise-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "state-visualization",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-state-visualization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "entanglement-analysis",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-entanglement-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "quantum-ml",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-quantum-ml",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "research-papers",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-research-papers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "quantum-protocols",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-quantum-protocols",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "hardware-profiles",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-hardware-profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "benchmark-tests",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-benchmark-tests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "learning-resources",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+      "canonical": "feature-learning-resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "circuit-designs",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-circuit-design",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "error-corrections",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-error-correction",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "algorithm-optimizations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-algorithm-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "qubit-managements",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-qubit-management",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "gate-operations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-gate-operations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "quantum-simulations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-quantum-simulation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "noise-analyses",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-noise-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "state-visualizations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-state-visualization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "entanglement-analyses",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-entanglement-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "quantum-mls",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-quantum-ml",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "research-papers",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-research-papers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "quantum-protocols",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-quantum-protocols",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "hardware-profiles",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-hardware-profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "benchmark-tests",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-benchmark-tests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "learning-resources",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+      "canonical": "feature-learning-resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "cf-quantum-algorithm-tutor",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "canonical": "quantum-algorithm-tutor",
+      "kind": "route"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "cf-problemtocircuit-compiler",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "canonical": "problemtocircuit-compiler",
+      "kind": "route"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "cf-hardware-benchmarking-dashboard",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "canonical": "hardware-benchmarking-dashboard",
+      "kind": "route"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "cf-variational-circuit-optimizer",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "canonical": "variational-circuit-optimizer",
+      "kind": "route"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "cf-error-mitigation-advisor",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "canonical": "error-mitigation-advisor",
+      "kind": "route"
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "sourceKey": "cf-quantumclassical-hybrid-planner",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "canonical": "quantumclassical-hybrid-planner",
+      "kind": "route"
+    },
+    {
+      "project": "AIResearchLiteratureAgent",
+      "sourceKey": "papers",
+      "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+      "canonical": "papers",
+      "kind": "schema"
+    },
+    {
+      "project": "AIResearchLiteratureAgent",
+      "sourceKey": "collections",
+      "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+      "canonical": "collections",
+      "kind": "schema"
+    },
+    {
+      "project": "AIResearchLiteratureAgent",
+      "sourceKey": "paper_collections",
+      "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+      "canonical": "paper-collections",
+      "kind": "schema"
+    },
+    {
+      "project": "AIResearchLiteratureAgent",
+      "sourceKey": "notes",
+      "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+      "canonical": "notes",
+      "kind": "schema"
+    },
+    {
+      "project": "AIResearchLiteratureAgent",
+      "sourceKey": "reviews",
+      "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+      "canonical": "reviews",
+      "kind": "schema"
+    },
+    {
+      "project": "AIResearchLiteratureAgent",
+      "sourceKey": "research_logs",
+      "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+      "canonical": "research-logs",
+      "kind": "schema"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "login",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "search",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "sample-data",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-native-discovery-engines",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/ai-native-discovery-engines",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "/feature/:featureName",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIQuantumComputingAssistant",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": []
+}

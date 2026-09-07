@@ -1,0 +1,3476 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "/projects",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Research Projects"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIResearchLiteratureAgent",
+        "path": "notes",
+        "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+        "kind": "schema",
+        "label": "Notes"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "activity",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Activity"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hypotheses",
+    "title": "Hypotheses",
+    "group": "Native discovery engines",
+    "description": "Organize hypotheses and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "/hypotheses",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Hypotheses"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/hypotheses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "experiments",
+    "title": "Experiments",
+    "group": "Native discovery engines",
+    "description": "Organize experiments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "/experiments",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Experiments"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/experiments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "results",
+    "title": "Results",
+    "group": "Native discovery engines",
+    "description": "Organize results and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "/results",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Results"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/results",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "researchers",
+    "title": "Researchers",
+    "group": "Native discovery engines",
+    "description": "Organize researchers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "/researchers",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Researchers"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/researchers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "publications",
+    "title": "Publications",
+    "group": "Native discovery engines",
+    "description": "Organize publications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "/publications",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Publications"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/publications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exports",
+    "title": "Exports",
+    "group": "Native discovery engines",
+    "description": "Organize exports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "exports",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Exports"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/exports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "corpus-index",
+    "title": "Corpus index",
+    "group": "Native discovery engines",
+    "description": "Organize corpus index and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "corpus-index",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Corpus index"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/corpus-index",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hybrid-retrieval",
+    "title": "Hybrid retrieval",
+    "group": "Native discovery engines",
+    "description": "Organize hybrid retrieval and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "hybrid-retrieval",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Hybrid retrieval"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/hybrid-retrieval",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "citation-tracker",
+    "title": "Citation tracker",
+    "group": "Native discovery engines",
+    "description": "Organize citation tracker and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "citation-tracker",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Citation tracker"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/citation-tracker",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "web-crawl",
+    "title": "Web crawl",
+    "group": "Native discovery engines",
+    "description": "Organize web crawl and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "web-crawl",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Web crawl"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/web-crawl",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmark-eval",
+    "title": "Benchmark eval",
+    "group": "Native discovery engines",
+    "description": "Organize benchmark eval and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "benchmark-eval",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Benchmark eval"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/benchmark-eval",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "discovery-agent",
+    "title": "Discovery agent",
+    "group": "Native discovery engines",
+    "description": "Organize discovery agent and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "discovery-agent",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Discovery agent"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/discovery-agent",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "query-drift-monitor",
+    "title": "Query drift monitor",
+    "group": "Native discovery engines",
+    "description": "Organize query drift monitor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-native-discovery-engines",
+        "path": "query-drift-monitor",
+        "source": "/Volumes/external/projects/ai-native-discovery-engines",
+        "kind": "route",
+        "label": "Query drift monitor"
+      }
+    ],
+    "owner": "ai-native-discovery-engines",
+    "alternatives": [],
+    "path": "/features/query-drift-monitor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-circuit-design",
+    "title": "Circuit Design",
+    "group": "Quantum computing assistant",
+    "description": "Prepare circuit design requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Circuit Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "qubitCount",
+        "label": "Qubit Count",
+        "type": "number"
+      },
+      {
+        "name": "circuitDepth",
+        "label": "Circuit Depth",
+        "type": "number"
+      },
+      {
+        "name": "targetFidelity",
+        "label": "Target Fidelity",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "complexity",
+        "label": "Complexity",
+        "type": "select",
+        "options": [
+          "Low",
+          "Medium",
+          "High",
+          "Very High"
+        ]
+      },
+      {
+        "name": "estimatedRuntime",
+        "label": "Estimated Runtime",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/circuit-design",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Circuit Design"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "circuit-design",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Circuit Design"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "circuit-designs",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Circuit Design"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-circuit-design",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-error-correction",
+    "title": "Error Correction",
+    "group": "Quantum computing assistant",
+    "description": "Organize error correction and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Code Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "codeType",
+        "label": "Code Type",
+        "type": "text"
+      },
+      {
+        "name": "errorRate",
+        "label": "Error Rate",
+        "type": "number"
+      },
+      {
+        "name": "correctionCapability",
+        "label": "Correction Capability",
+        "type": "text"
+      },
+      {
+        "name": "qubitOverhead",
+        "label": "Qubit Overhead",
+        "type": "number"
+      },
+      {
+        "name": "syndromeExtraction",
+        "label": "Syndrome Extraction",
+        "type": "text"
+      },
+      {
+        "name": "decoderType",
+        "label": "Decoder Type",
+        "type": "text"
+      },
+      {
+        "name": "logicalErrorRate",
+        "label": "Logical Error Rate",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/error-correction",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Error Correction"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "error-correction",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Error Correction"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "error-corrections",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Error Correction"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-error-correction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-algorithm-optimization",
+    "title": "Algorithm Optimization",
+    "group": "Quantum computing assistant",
+    "description": "Organize algorithm optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Algorithm Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "algorithmType",
+        "label": "Algorithm Type",
+        "type": "text"
+      },
+      {
+        "name": "originalComplexity",
+        "label": "Original Complexity",
+        "type": "text"
+      },
+      {
+        "name": "optimizedComplexity",
+        "label": "Optimized Complexity",
+        "type": "text"
+      },
+      {
+        "name": "speedup",
+        "label": "Speedup",
+        "type": "text"
+      },
+      {
+        "name": "qubitRequirement",
+        "label": "Qubit Requirement",
+        "type": "number"
+      },
+      {
+        "name": "gateCount",
+        "label": "Gate Count",
+        "type": "number"
+      },
+      {
+        "name": "applicationDomain",
+        "label": "Application Domain",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/algorithm-optimization",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Algorithm Optimization"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "algorithm-optimization",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Algorithm Optimization"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "algorithm-optimizations",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Algorithm Optimization"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-algorithm-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-gate-operations",
+    "title": "Gate Operations",
+    "group": "Quantum computing assistant",
+    "description": "Organize gate operations and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Gate Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "gateType",
+        "label": "Gate Type",
+        "type": "text"
+      },
+      {
+        "name": "qubitCount",
+        "label": "Qubit Count",
+        "type": "number"
+      },
+      {
+        "name": "fidelity",
+        "label": "Fidelity",
+        "type": "number"
+      },
+      {
+        "name": "executionTime",
+        "label": "Execution Time",
+        "type": "text"
+      },
+      {
+        "name": "decomposition",
+        "label": "Decomposition",
+        "type": "text"
+      },
+      {
+        "name": "isUniversal",
+        "label": "Universal Gate",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/gate-operations",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gate Operations"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "gate-operations",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Gate Operations"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "gate-operations",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Gate Operations"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-gate-operations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-qubit-management",
+    "title": "Qubit Management",
+    "group": "Quantum computing assistant",
+    "description": "Organize qubit management and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Qubit Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "qubitType",
+        "label": "Qubit Type",
+        "type": "text"
+      },
+      {
+        "name": "coherenceTime",
+        "label": "Coherence Time",
+        "type": "text"
+      },
+      {
+        "name": "gateTime",
+        "label": "Gate Time",
+        "type": "text"
+      },
+      {
+        "name": "connectivity",
+        "label": "Connectivity",
+        "type": "text"
+      },
+      {
+        "name": "errorRate",
+        "label": "Error Rate",
+        "type": "number"
+      },
+      {
+        "name": "temperature",
+        "label": "Temperature",
+        "type": "text"
+      },
+      {
+        "name": "calibrationStatus",
+        "label": "Calibration Status",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/qubit-management",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Qubit Management"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "qubit-management",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Qubit Management"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "qubit-managements",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Qubit Management"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-qubit-management",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-quantum-simulation",
+    "title": "Quantum Simulation",
+    "group": "Quantum computing assistant",
+    "description": "Organize quantum simulation and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Simulation Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "simulationType",
+        "label": "Simulation Type",
+        "type": "text"
+      },
+      {
+        "name": "systemSize",
+        "label": "System Size",
+        "type": "number"
+      },
+      {
+        "name": "hamiltonianType",
+        "label": "Hamiltonian Type",
+        "type": "text"
+      },
+      {
+        "name": "timeSteps",
+        "label": "Time Steps",
+        "type": "number"
+      },
+      {
+        "name": "accuracy",
+        "label": "Accuracy",
+        "type": "number"
+      },
+      {
+        "name": "method",
+        "label": "Method",
+        "type": "text"
+      },
+      {
+        "name": "memoryUsage",
+        "label": "Memory Usage",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/quantum-simulation",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Quantum Simulation"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "quantum-simulation",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Quantum Simulation"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "quantum-simulations",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Quantum Simulation"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-quantum-simulation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-noise-analysis",
+    "title": "Noise Analysis",
+    "group": "Quantum computing assistant",
+    "description": "Organize noise analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Analysis Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "noiseModel",
+        "label": "Noise Model",
+        "type": "text"
+      },
+      {
+        "name": "depolarizingRate",
+        "label": "Depolarizing Rate",
+        "type": "number"
+      },
+      {
+        "name": "dampingRate",
+        "label": "Damping Rate",
+        "type": "number"
+      },
+      {
+        "name": "dephazingRate",
+        "label": "Dephasing Rate",
+        "type": "number"
+      },
+      {
+        "name": "measurementError",
+        "label": "Measurement Error",
+        "type": "number"
+      },
+      {
+        "name": "mitigationStrategy",
+        "label": "Mitigation Strategy",
+        "type": "text"
+      },
+      {
+        "name": "fidelityImpact",
+        "label": "Fidelity Impact",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/noise-analysis",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Noise Analysis"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "noise-analysis",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Noise Analysis"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "noise-analyses",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Noise Analysis"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-noise-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-state-visualization",
+    "title": "State Visualization",
+    "group": "Quantum computing assistant",
+    "description": "Organize state visualization and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "State Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "stateType",
+        "label": "State Type",
+        "type": "text"
+      },
+      {
+        "name": "qubitCount",
+        "label": "Qubit Count",
+        "type": "number"
+      },
+      {
+        "name": "purity",
+        "label": "Purity",
+        "type": "number"
+      },
+      {
+        "name": "entropy",
+        "label": "Entropy",
+        "type": "number"
+      },
+      {
+        "name": "visualizationType",
+        "label": "Visualization Type",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/state-visualization",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "State Visualization"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "state-visualization",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "State Visualization"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "state-visualizations",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "State Visualization"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-state-visualization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-entanglement-analysis",
+    "title": "Entanglement Analysis",
+    "group": "Quantum computing assistant",
+    "description": "Organize entanglement analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Analysis Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "entanglementType",
+        "label": "Entanglement Type",
+        "type": "text"
+      },
+      {
+        "name": "concurrence",
+        "label": "Concurrence",
+        "type": "number"
+      },
+      {
+        "name": "bellStateType",
+        "label": "Bell State Type",
+        "type": "text"
+      },
+      {
+        "name": "entanglementWitness",
+        "label": "Entanglement Witness",
+        "type": "text"
+      },
+      {
+        "name": "applications",
+        "label": "Applications",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/entanglement-analysis",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Entanglement Analysis"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "entanglement-analysis",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Entanglement Analysis"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "entanglement-analyses",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Entanglement Analysis"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-entanglement-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-quantum-ml",
+    "title": "Quantum ML",
+    "group": "Quantum computing assistant",
+    "description": "Organize quantum ml and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Model Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "modelType",
+        "label": "Model Type",
+        "type": "text"
+      },
+      {
+        "name": "datasetSize",
+        "label": "Dataset Size",
+        "type": "number"
+      },
+      {
+        "name": "featureMap",
+        "label": "Feature Map",
+        "type": "text"
+      },
+      {
+        "name": "ansatzType",
+        "label": "Ansatz Type",
+        "type": "text"
+      },
+      {
+        "name": "layers",
+        "label": "Layers",
+        "type": "number"
+      },
+      {
+        "name": "trainingAccuracy",
+        "label": "Training Accuracy",
+        "type": "number"
+      },
+      {
+        "name": "classicalBaseline",
+        "label": "Classical Baseline",
+        "type": "number"
+      },
+      {
+        "name": "quantumAdvantage",
+        "label": "Quantum Advantage",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/quantum-ml",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Quantum ML"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "quantum-ml",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Quantum ML"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "quantum-mls",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Quantum ML"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-quantum-ml",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-research-papers",
+    "title": "Research Papers",
+    "group": "Quantum computing assistant",
+    "description": "Organize research papers and prepare the next review.",
+    "fields": [
+      {
+        "name": "authors",
+        "label": "Authors",
+        "type": "text"
+      },
+      {
+        "name": "abstract",
+        "label": "Abstract",
+        "type": "textarea"
+      },
+      {
+        "name": "journal",
+        "label": "Journal",
+        "type": "text"
+      },
+      {
+        "name": "year",
+        "label": "Year",
+        "type": "number"
+      },
+      {
+        "name": "doi",
+        "label": "DOI",
+        "type": "text"
+      },
+      {
+        "name": "citations",
+        "label": "Citations",
+        "type": "number"
+      },
+      {
+        "name": "researchArea",
+        "label": "Research Area",
+        "type": "text"
+      },
+      {
+        "name": "keyFindings",
+        "label": "Key Findings",
+        "type": "textarea"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/research-papers",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Research Papers"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "research-papers",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Research Papers"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "research-papers",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Research Papers"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-research-papers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-quantum-protocols",
+    "title": "Quantum Protocols",
+    "group": "Quantum computing assistant",
+    "description": "Organize quantum protocols and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Protocol Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "protocolType",
+        "label": "Protocol Type",
+        "type": "text"
+      },
+      {
+        "name": "securityLevel",
+        "label": "Security Level",
+        "type": "text"
+      },
+      {
+        "name": "keyRate",
+        "label": "Key Rate",
+        "type": "text"
+      },
+      {
+        "name": "distance",
+        "label": "Distance",
+        "type": "text"
+      },
+      {
+        "name": "resourceRequirements",
+        "label": "Resource Requirements",
+        "type": "text"
+      },
+      {
+        "name": "implementation",
+        "label": "Implementation",
+        "type": "text"
+      },
+      {
+        "name": "verificationMethod",
+        "label": "Verification Method",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/quantum-protocols",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Quantum Protocols"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "quantum-protocols",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Quantum Protocols"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "quantum-protocols",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Quantum Protocols"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-quantum-protocols",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-hardware-profiles",
+    "title": "Hardware Profiles",
+    "group": "Quantum computing assistant",
+    "description": "Organize hardware profiles and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "System Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "qubitCount",
+        "label": "Qubit Count",
+        "type": "number"
+      },
+      {
+        "name": "qubitType",
+        "label": "Qubit Type",
+        "type": "text"
+      },
+      {
+        "name": "connectivity",
+        "label": "Connectivity",
+        "type": "text"
+      },
+      {
+        "name": "gateSet",
+        "label": "Gate Set",
+        "type": "text"
+      },
+      {
+        "name": "t1Time",
+        "label": "T1 Time",
+        "type": "text"
+      },
+      {
+        "name": "t2Time",
+        "label": "T2 Time",
+        "type": "text"
+      },
+      {
+        "name": "gateError",
+        "label": "Gate Error Rate",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/hardware-profiles",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Hardware Profiles"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "hardware-profiles",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Hardware Profiles"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "hardware-profiles",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Hardware Profiles"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-hardware-profiles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-benchmark-tests",
+    "title": "Benchmark Tests",
+    "group": "Quantum computing assistant",
+    "description": "Organize benchmark tests and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Benchmark Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "benchmarkType",
+        "label": "Benchmark Type",
+        "type": "text"
+      },
+      {
+        "name": "circuitDepth",
+        "label": "Circuit Depth",
+        "type": "number"
+      },
+      {
+        "name": "qubitCount",
+        "label": "Qubit Count",
+        "type": "number"
+      },
+      {
+        "name": "quantumVolume",
+        "label": "Quantum Volume",
+        "type": "number"
+      },
+      {
+        "name": "clops",
+        "label": "CLOPS",
+        "type": "number"
+      },
+      {
+        "name": "successRate",
+        "label": "Success Rate",
+        "type": "number"
+      },
+      {
+        "name": "executionTime",
+        "label": "Execution Time",
+        "type": "text"
+      },
+      {
+        "name": "hardwareTarget",
+        "label": "Hardware Target",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/benchmark-tests",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Benchmark Tests"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "benchmark-tests",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Benchmark Tests"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "benchmark-tests",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Benchmark Tests"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-benchmark-tests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feature-learning-resources",
+    "title": "Learning Resources",
+    "group": "Quantum computing assistant",
+    "description": "Organize learning resources and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "resourceType",
+        "label": "Resource Type",
+        "type": "select",
+        "options": [
+          "Course",
+          "Tutorial",
+          "Textbook",
+          "Paper",
+          "Video",
+          "Interactive",
+          "Workshop"
+        ]
+      },
+      {
+        "name": "difficulty",
+        "label": "Difficulty",
+        "type": "select",
+        "options": [
+          "Beginner",
+          "Intermediate",
+          "Advanced",
+          "Expert"
+        ]
+      },
+      {
+        "name": "topic",
+        "label": "Topic",
+        "type": "text"
+      },
+      {
+        "name": "duration",
+        "label": "Duration",
+        "type": "text"
+      },
+      {
+        "name": "prerequisites",
+        "label": "Prerequisites",
+        "type": "text"
+      },
+      {
+        "name": "author",
+        "label": "Author",
+        "type": "text"
+      },
+      {
+        "name": "url",
+        "label": "URL",
+        "type": "text"
+      },
+      {
+        "name": "rating",
+        "label": "Rating",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/feature/learning-resources",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Learning Resources"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "learning-resources",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Learning Resources"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "learning-resources",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Learning Resources"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/feature-learning-resources",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quantum-query",
+    "title": "Quantum Query",
+    "group": "Quantum computing assistant",
+    "description": "Organize quantum query and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/quantum-query",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Quantum Query"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/quantum-query",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hardware-transpiler",
+    "title": "HW Transpiler",
+    "group": "Quantum computing assistant",
+    "description": "Organize hw transpiler and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/hardware-transpiler",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "HW Transpiler"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/hardware-transpiler",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmark-runner",
+    "title": "Benchmark Runner",
+    "group": "Quantum computing assistant",
+    "description": "Organize benchmark runner and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/benchmark-runner",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Benchmark Runner"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/benchmark-runner",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "algorithm-explainer",
+    "title": "Algorithm Explainer",
+    "group": "Quantum computing assistant",
+    "description": "Organize algorithm explainer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/algorithm-explainer",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Algorithm Explainer"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/algorithm-explainer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "optimization-problem-mapper",
+    "title": "Optimization Mapper",
+    "group": "Quantum computing assistant",
+    "description": "Organize optimization mapper and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/optimization-problem-mapper",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Optimization Mapper"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/optimization-problem-mapper",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hardware-recommendation",
+    "title": "HW Recommendation",
+    "group": "Quantum computing assistant",
+    "description": "Organize hw recommendation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/hardware-recommendation",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "HW Recommendation"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/hardware-recommendation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "circuit-generator",
+    "title": "Circuit Generator",
+    "group": "Quantum computing assistant",
+    "description": "Organize circuit generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/circuit-generator",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Circuit Generator"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/circuit-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmark-analysis",
+    "title": "Benchmark Analysis",
+    "group": "Quantum computing assistant",
+    "description": "Organize benchmark analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/benchmark-analysis",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Benchmark Analysis"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/benchmark-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "error-mitigation-advisor",
+    "title": "Error Mitigation",
+    "group": "Quantum computing assistant",
+    "description": "Organize error mitigation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/error-mitigation-advisor",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Error Mitigation"
+      },
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "cf-error-mitigation-advisor",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+        "kind": "route",
+        "label": "error mitigation advisor"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/error-mitigation-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "algorithmexplainer-plainenglish-explanati",
+    "title": "Algo Explainer Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize algo explainer gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-algorithmexplainer-plainenglish-explanati",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Algo Explainer Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/algorithmexplainer-plainenglish-explanati",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "circuitgenerator-from-problem-description",
+    "title": "Circuit Generator Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize circuit generator gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-circuitgenerator-from-problem-description",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Circuit Generator Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/circuitgenerator-from-problem-description",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "optimizationproblemmapper-classical-quant",
+    "title": "Optimization Mapper Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize optimization mapper gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-optimizationproblemmapper-classical-quant",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Optimization Mapper Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/optimizationproblemmapper-classical-quant",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hardwarerecommendation-ibm-ionq-rigetti-r",
+    "title": "HW Recommendation Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize hw recommendation gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-hardwarerecommendation-ibm-ionq-rigetti-r",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "HW Recommendation Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/hardwarerecommendation-ibm-ionq-rigetti-r",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmarkanalysis-across-providers",
+    "title": "Benchmark Analysis Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize benchmark analysis gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-benchmarkanalysis-across-providers",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Benchmark Analysis Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/benchmarkanalysis-across-providers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "errormitigation-advisor",
+    "title": "Error Mitigation Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize error mitigation gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-errormitigation-advisor",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Error Mitigation Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/errormitigation-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "circuit-diagram-visualizationeditor",
+    "title": "Circuit Diagram Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize circuit diagram gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-circuit-diagram-visualizationeditor",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Circuit Diagram Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/circuit-diagram-visualizationeditor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quantum-simulator-integration-qiskitcirqb",
+    "title": "Quantum Simulator Gap",
+    "group": "Quantum computing assistant",
+    "description": "Prepare quantum simulator gap requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-quantum-simulator-integration-qiskitcirqb",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Quantum Simulator Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/quantum-simulator-integration-qiskitcirqb",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "educational-courselesson-structure",
+    "title": "Course Structure Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize course structure gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-educational-courselesson-structure",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Course Structure Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/educational-courselesson-structure",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmarking-framework-or-result-store",
+    "title": "Benchmarking Store Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize benchmarking store gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-benchmarking-framework-or-result-store",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Benchmarking Store Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/benchmarking-framework-or-result-store",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hardware-provider-accountcredential-mgmt",
+    "title": "HW Credentials Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize hw credentials gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-hardware-provider-accountcredential-mgmt",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "HW Credentials Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/hardware-provider-accountcredential-mgmt",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "saved-circuits-sharing-or-library",
+    "title": "Circuit Library Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize circuit library gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-saved-circuits-sharing-or-library",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Circuit Library Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/saved-circuits-sharing-or-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notifications-or-rbac",
+    "title": "Notifications/RBAC Gap",
+    "group": "Quantum computing assistant",
+    "description": "Organize notifications/rbac gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "/gap-no-notifications-or-rbac",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant/client/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Notifications/RBAC Gap"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/notifications-or-rbac",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quantum-algorithm-tutor",
+    "title": "quantum algorithm tutor",
+    "group": "Quantum computing assistant",
+    "description": "Organize quantum algorithm tutor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "cf-quantum-algorithm-tutor",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+        "kind": "route",
+        "label": "quantum algorithm tutor"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/quantum-algorithm-tutor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "problemtocircuit-compiler",
+    "title": "problemtocircuit compiler",
+    "group": "Quantum computing assistant",
+    "description": "Organize problemtocircuit compiler and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "cf-problemtocircuit-compiler",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+        "kind": "route",
+        "label": "problemtocircuit compiler"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/problemtocircuit-compiler",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hardware-benchmarking-dashboard",
+    "title": "hardware benchmarking dashboard",
+    "group": "Quantum computing assistant",
+    "description": "Organize hardware benchmarking dashboard and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "cf-hardware-benchmarking-dashboard",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+        "kind": "route",
+        "label": "hardware benchmarking dashboard"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/hardware-benchmarking-dashboard",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "variational-circuit-optimizer",
+    "title": "variational circuit optimizer",
+    "group": "Quantum computing assistant",
+    "description": "Organize variational circuit optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "cf-variational-circuit-optimizer",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+        "kind": "route",
+        "label": "variational circuit optimizer"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/variational-circuit-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quantumclassical-hybrid-planner",
+    "title": "quantumclassical hybrid planner",
+    "group": "Quantum computing assistant",
+    "description": "Organize quantumclassical hybrid planner and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIQuantumComputingAssistant",
+        "path": "cf-quantumclassical-hybrid-planner",
+        "source": "/Volumes/external/projects/AIQuantumComputingAssistant",
+        "kind": "route",
+        "label": "quantumclassical hybrid planner"
+      }
+    ],
+    "owner": "AIQuantumComputingAssistant",
+    "alternatives": [],
+    "path": "/features/quantumclassical-hybrid-planner",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "papers",
+    "title": "Papers",
+    "group": "Research literature agent",
+    "description": "Organize papers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIResearchLiteratureAgent",
+        "path": "papers",
+        "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+        "kind": "schema",
+        "label": "Papers"
+      }
+    ],
+    "owner": "AIResearchLiteratureAgent",
+    "alternatives": [],
+    "path": "/features/papers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "collections",
+    "title": "Collections",
+    "group": "Research literature agent",
+    "description": "Organize collections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIResearchLiteratureAgent",
+        "path": "collections",
+        "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+        "kind": "schema",
+        "label": "Collections"
+      }
+    ],
+    "owner": "AIResearchLiteratureAgent",
+    "alternatives": [],
+    "path": "/features/collections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "paper-collections",
+    "title": "Paper collections",
+    "group": "Research literature agent",
+    "description": "Organize paper collections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIResearchLiteratureAgent",
+        "path": "paper_collections",
+        "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+        "kind": "schema",
+        "label": "Paper collections"
+      }
+    ],
+    "owner": "AIResearchLiteratureAgent",
+    "alternatives": [],
+    "path": "/features/paper-collections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reviews",
+    "title": "Reviews",
+    "group": "Research literature agent",
+    "description": "Organize reviews and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIResearchLiteratureAgent",
+        "path": "reviews",
+        "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+        "kind": "schema",
+        "label": "Reviews"
+      }
+    ],
+    "owner": "AIResearchLiteratureAgent",
+    "alternatives": [],
+    "path": "/features/reviews",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "research-logs",
+    "title": "Research logs",
+    "group": "Research literature agent",
+    "description": "Organize research logs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIResearchLiteratureAgent",
+        "path": "research_logs",
+        "source": "/Volumes/external/projects/AIResearchLiteratureAgent",
+        "kind": "schema",
+        "label": "Research logs"
+      }
+    ],
+    "owner": "AIResearchLiteratureAgent",
+    "alternatives": [],
+    "path": "/features/research-logs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

@@ -1,0 +1,3 @@
+ai-native-discovery-engines
+AIQuantumComputingAssistant
+AIResearchLiteratureAgent
